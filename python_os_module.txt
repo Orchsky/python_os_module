@@ -22,3 +22,25 @@
     8. Debian
     9. Amazon Linux 
 
+
+Benefit of Python in AWS (Cloud)
+
+1. Let's say somebody deletes VPC Flow log, what would be your solution? To use Python because Python 
+has great SDK (Software Development Kit) which is BOTO3. Event Driven Architecture. 
+
+
+2. Why do we need to deal with directories and files inside directories as a DevOps engineer? 
+We closely work with Developer (Develoopers). They develop applications in Java/Javasacript/NodeJs/C#/Dotenet and etc. 
+They create binary files in gzip/zip format and push to Artifactory such as Jfrog/Nexus. 
+What is binary/Artifactory/Archive? Basically it's executable file compressed/packed together.
+As a DevSecOps engineers (Cloud Engineers/SRE (Site Relibility Engineering)) we need to get binaries and 
+deploy to remote servers (EC2/VM). 
+Steps of deployment:
+    1. Create application directory in VM. Such as: /opt/banking
+    2. Define which file what kind of permissions has 
+    3. Create directory for application logs. Example of Error logs: Permission error, Out of Memory,
+    Application works on port 9091 but this port is blocked in Security Group level. 
+
+3. Maximum file size can be pushed to GitHub? 100 MB. If you files larger than 100 MB needs to be pushed 
+to GitHub? Solution: git-lfs (Large File System)
+
